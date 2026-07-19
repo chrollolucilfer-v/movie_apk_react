@@ -11,10 +11,6 @@ export function MovieCard({ movie }) {
         <div className="movie-overlay">
           <button className="favorite-btn" onClick={onFavoriteClick}>
             ❤️
-
-
-
-            
           </button>
         </div>
       </div>
