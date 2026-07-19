@@ -1,28 +1,13 @@
-import {react} from 'react';
+import react from "react";
+import Home from "./pages/Home";
 
 function App() {
+  const movieNumber = 2;
   return (
     <>
-    {/* this is a fragment when you don't want a parent and just an empty atg */}
-        {/* A component is really just any function in just
-        that retturns some kind of jsx code */}
-        <p> Hello World </p>
-        <Text name="Bhaskar"/>
-        <Text name="Deepak"/>
-
+   <Home />
     </>
-    
-  );
-}
-
-function Text({name}){
-  return(
-    <div>
-    <h1>Hello  {name}</h1>
-    </div>
   );
 }
 
 export default App;
-
-
